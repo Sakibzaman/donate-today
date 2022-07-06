@@ -135,18 +135,19 @@ body {
 }
 .para-size {
   text-align: center;
+  margin-right: 20px;
+  margin-left: 20px;
   margin-bottom: 50px;
 }
-.updates {
-  padding: 50px;
-}
-
 .updates p {
-  padding: 0px 300px;
+  padding: 0 400px;
 }
 .subscribe {
+  width: 40%;
+  padding: 60px;
+  border: 40px solid white;
   margin: auto;
-  background-color: white;
+  background-color: rgb(255, 239, 211);
   align-items: center;
   display: flex;
   justify-content: center;
