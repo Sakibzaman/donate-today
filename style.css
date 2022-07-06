@@ -49,9 +49,13 @@ body{
     font-size: 18px;
     padding: 0 350px;
 }
-.buttons{
-     
-    padding:0 350px;
+#custom-amount{
+    font-size: 20px;
+    padding: 20px 50px ;
+    margin-top: 25px;
+}
+.buttons{     
+    justify-content: center;
     display: flex;
     text-align: center;
     margin: auto;
@@ -89,27 +93,34 @@ body{
     padding: 1px 300px 50px;
 }
 .boxes{
+    justify-content: center;
     text-align: center;
     display: flex;
     padding: 0 200px 0 200px;
 }
-.box1{
+.box1{    
     padding: 40px 20px 20px 20px;
     width: 300px; height: 250px;
     background-color: rgb(191, 218, 228);
-    border:10px white solid;
+    border:10px rgb(191, 218, 228) solid;
+    border-radius: 10px;
+    margin: 0 10px;
 }
 .box2{
     padding: 40px 20px 20px 20px;
     width: 300px; height: 250px;
     background-color: rgb(228, 191, 211);
-    border:10px white solid;
+    border:10px rgb(228, 191, 211) solid;
+    border-radius: 10px;
+    margin: 0 10px;
 }
 .box3{
     padding: 40px 20px 20px 20px;
     width: 300px; height: 250px;
     background-color: rgb(250, 193, 153);
-    border:10px white solid;
+    border:10px rgb(250, 193, 153) solid;
+    border-radius: 10px;
+    margin: 0 10px;
 }
 .half-width{
     width:40%;
