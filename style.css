@@ -145,15 +145,14 @@ body {
   padding: 0px 300px;
 }
 .subscribe {
-  margin: 20px 20px white solid;
-  padding: 100px 40px;
+  margin: auto;
   background-color: white;
   align-items: center;
   display: flex;
+  justify-content: center;
 }
 #email {
   background-color: rgb(223, 223, 221);
-  margin-left: 450px;
   padding: 10px 20px 10px 20px;
   border-color: rgb(223, 223, 221);
   margin-top: 0;
