@@ -3,6 +3,7 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
+/* Header section styles */
 .header {
   width: 100%;
   background-image: linear-gradient(
@@ -31,6 +32,7 @@ body {
   color: white;
   font-size: 17px;
 }
+/* button styles */
 .link-button {
   text-decoration: none;
   background-color: coral;
@@ -38,12 +40,14 @@ body {
   padding: 10px 20px;
   border-radius: 5px;
 }
+/* h1 styles */
 .h1-bold {
   padding-top: 50px;
   text-align: center;
   font-size: 45px;
   font-weight: 900;
 }
+/* Donate today section styles */
 .donate-now p {
   color: gray;
   text-align: center;
@@ -81,9 +85,11 @@ body {
   text-align: center;
   width: 600px;
 }
+/* Our Donate Plan div styles */
 .our-donate-plan p {
   padding: 1px 300px 50px;
 }
+/* Box styles */
 .boxes {
   justify-content: center;
   text-align: center;
@@ -117,34 +123,21 @@ body {
   border-radius: 10px;
   margin: 0 10px;
 }
-.half-width {
-  width: 40%;
-  float: left;
-  margin-left: 5%;
-  padding-left: 2%;
-}
+/* Donate and save lives image styles */
 .image {
   width: 100%;
   height: 900px;
 }
+/* Donate and save lives paragraph styles */
 .para-size {
   text-align: center;
   margin-right: 20px;
   margin-left: 20px;
   margin-bottom: 50px;
 }
+/* Get My Updates paragraph styles */
 .updates p {
-  padding: 0 400px;
-}
-.subscribe {
-  width: 40%;
-  padding: 60px;
-  border: 40px solid white;
-  margin: auto;
-  background-color: rgb(255, 239, 211);
-  align-items: center;
-  display: flex;
-  justify-content: center;
+  padding: 0 360px;
 }
 #email {
   background-color: rgb(223, 223, 221);
@@ -156,6 +149,18 @@ body {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
+/* subscribe div styles */
+.subscribe {
+  width: 40%;
+  padding: 60px;
+  border: 40px solid white;
+  margin: auto;
+  background-color: rgb(255, 239, 211);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+/* email div button styles */
 .link-button-sub {
   text-decoration: none;
   background-color: coral;
@@ -166,6 +171,7 @@ body {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
+/* footer styles */
 footer {
   padding: 40px 0;
   background-color: black;
